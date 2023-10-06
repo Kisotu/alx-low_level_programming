@@ -4,7 +4,7 @@
 /* more headers goes there */
 
 /**
- * main - A program that compares n against 5>, ==0, <6
+ * main - A program that compares last digit of n against 5>, ==0, <6
  */
 int main(void)
 {
