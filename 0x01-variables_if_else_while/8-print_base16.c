@@ -10,7 +10,7 @@ int main(void)
 	/*print 0-9*/
 	for (numbz = 0; numbz <= 9; numbz++)
 	{
-	       	putchar(numbz + '0');
+		putchar(numbz + '0');
 	}
 	/*print a-f */
 	for (alph = 'a'; alph <= 'f'; alph++)
