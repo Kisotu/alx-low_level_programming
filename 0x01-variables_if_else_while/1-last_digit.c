@@ -5,6 +5,7 @@
 
 /**
  * main - A program that compares last digit of n against 5>, ==0, <6
+ * Return: 0 if success
  */
 int main(void)
 {
