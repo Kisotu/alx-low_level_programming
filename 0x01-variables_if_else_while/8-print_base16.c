@@ -7,8 +7,8 @@ int main(void)
 {
 	char alph;
 	int numbz;
-        /*print 0-9*/
-        for (numbz = 0; numbz <= 9; numbz++)
+	/*print 0-9*/
+	for (numbz = 0; numbz <= 9; numbz++)
 	{
 	       	putchar(numbz + '0');
 	}
