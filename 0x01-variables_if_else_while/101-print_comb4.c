@@ -7,18 +7,18 @@ int main(void)
 {
 	int num1, num2, num3;
 
-	for (a = 0; a <= 9; a++)
+	for (num1 = 0; num1 <= 9; num1++)
 	{
-		for (b = 0; b <= 9; b++)
+		for (num2 = 0; num2 <= 9; num2++)
 		{
-			for (c = 0; c <= 9; c++)
+			for (num3 = 0; num3 <= 9; num3++)
 			{
-				if (a != b && b != c)
+				if (num1 != num2 && num2 != num3)
 				{
-					putchar(a + '0');
-					putchar(b + '0');
-					putcahr(c + '0');
-					if (a + b + c != 24)
+					putchar(num1 + '0');
+					putchar(num2 + '0');
+					putcahr(num3 + '0');
+					if (num1 + num2 + num3 != 24)
 					{
 						putchar(',');
 						putchar(' ');
