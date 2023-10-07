@@ -19,8 +19,7 @@ int main(void)
 					{
 						putchar(num1 + '0');
 						putchar(num2 + '0');
-						putchar(num3 + '0');
-					
+						putchar(num3 + '0');					
 						if (num1 + num2 + num3 != 24)
 						{
 
