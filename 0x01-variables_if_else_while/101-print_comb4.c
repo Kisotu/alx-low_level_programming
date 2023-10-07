@@ -22,7 +22,6 @@ int main(void)
 						putchar(num3 + '0');					
 						if (num1 + num2 + num3 != 24)
 						{
-
 							putchar(',');
 							putchar(' ');
 						}
