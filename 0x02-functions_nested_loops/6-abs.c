@@ -2,10 +2,10 @@
 
 /**
  * _abs - computes absolute value of an integer
- * @int: integer to be computed
+ * @c: integer to be computed
  * Return: Absolute value of integer
  */
-int _abs(int)
+int _abs(int c)
 {
 	if (c < 0)
 	{
@@ -13,5 +13,5 @@ int _abs(int)
 		abs_val = c * -1;
 		return (abs_val);
 	}
-	return (int);
+	return (c);
 }
