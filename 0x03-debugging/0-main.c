@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main - test for +ve and -ve
- * Return: 0 if success
- */
+* main - tests the postive_or_negative fxn
+* Return: 0 if success
+*/
+
 int main(void)
 {
 	int i;
