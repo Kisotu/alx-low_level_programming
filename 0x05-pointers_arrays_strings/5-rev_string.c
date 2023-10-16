@@ -2,7 +2,7 @@
 
 /**
  * rev_string - reverses a string
- * @s - string to reverse chars
+ * @s: string to reverse chars
  *
  * Description: takes a string s a reverse
  * Return: 0 if success
