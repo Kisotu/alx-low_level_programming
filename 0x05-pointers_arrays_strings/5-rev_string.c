@@ -3,6 +3,8 @@
 /**
  * rev_string - reverses a string
  * @s - string to reverse chars
+ *
+ * Description: takes a string s a reverse
  * Return: 0 if success
  */
 void rev_string(char *s)
@@ -15,7 +17,7 @@ void rev_string(char *s)
 	{
 		i++;
 	}
-	k = i -1;
+	k = i - 1;
 	for (j = 0; k >= 0 && j < k; k--, j++)
 	{
 		l = s[j];
