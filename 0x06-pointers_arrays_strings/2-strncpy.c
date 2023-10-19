@@ -16,7 +16,7 @@ char *_strncpy(char *dest, char *src, int n)
 	}
 	for (; k < n; k++)
 	{
-		*(des + k) = '\0';
+		*(dest + k) = '\0';
 	}
 	return (dest);
 }
