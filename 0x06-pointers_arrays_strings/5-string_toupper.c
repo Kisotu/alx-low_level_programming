@@ -5,7 +5,7 @@
  * @s: string to transform
  * Return: uppercase string
  */
-char *string_toupper(char *S)
+char *string_toupper(char *s)
 {
 	int k;
 
