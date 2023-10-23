@@ -6,7 +6,7 @@
  *  @accept: poiner to substring to find
  *  Return: no of bytes of substring
  */
-unsigned int _strspn(char *s, char *acccept)
+unsigned int _strspn(char *s, char *accept)
 {
 	int k, m, n;
 
