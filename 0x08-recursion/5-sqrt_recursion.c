@@ -12,7 +12,7 @@ int check_perfect_root(int k, int m)
 	{
 		return (k);
 	}
-	else (k * k > m)
+	else if (k * k > m)
 	{
 		return (-1);
 	}
