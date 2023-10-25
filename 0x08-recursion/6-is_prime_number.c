@@ -24,7 +24,7 @@ int check_prime(int k, int m)
  * is_prime_number - checks if number is prime
  * Description: checks if a number is prime or not
  * @n: number to check
- * Return 1 if prime, 0 otherwise
+ * Return: 1 if prime, 0 otherwise
  */
 int is_prime_number(int n)
 {
