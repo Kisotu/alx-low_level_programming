@@ -23,7 +23,7 @@ int str_len(char *s)
 int pali_check(char *s, int j, int k)
 {
 	if (s[j] == s[k])
-		if (j > m / 2)
+		if (j > k / 2)
 			return (1);
 		else
 			return (pali_check(s, j + 1, k - 1));
