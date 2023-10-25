@@ -3,7 +3,7 @@
 /**
  * check_perfect_root - checks for perfect square
  * @k: int
- * @b: int
+ * @m: int
  * Return: sq root
  */
 int check_perfect_root(int k, int m)
@@ -30,5 +30,5 @@ int _sqrt_recursion(int n)
 	{
 		return (0);
 	}
-	return(check_perfect_root(1, n));
+	return (check_perfect_root(1, n));
 }
