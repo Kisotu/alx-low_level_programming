@@ -7,13 +7,13 @@
  */
 int str_len(char *s)
 {
-	if(s[0] != '\0')
+	if (s[0] != '\0')
 		return (1 + str_len(s + 1));
 	return (0);
 }
 
 /**
- * pali-check - check if string is palindrome
+ * pali_check - check if string is palindrome
  * @s: string address
  * @j: left index
  * @k: right index
