@@ -37,5 +37,5 @@ int string_checker(char *st1, char *st2, int j, int k)
  */
 int wildcmp(char *s1, char *s2)
 {
-	return (string_checker(s1, s2, 0, 0)):
+	return (string_checker(s1, s2, 0, 0));
 }
