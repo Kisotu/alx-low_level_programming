@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * prints the program's name and a new line
+ * main - prints the program's name and a new line
  * @argc: nuumber of arguments
  * @argv: argument vector
  * Return: 0 if success
