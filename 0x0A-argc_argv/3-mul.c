@@ -5,11 +5,11 @@
  * main - multiplies two numbers
  * @argc: number of args
  * @argv: argument vector
- * return: 0 if success
+ * Return: 0 if success
  */
 int main(int argc, char *argv[])
 {
-	in k, m;
+	int k, m;
 
 	if (argc == 3)
 	{
