@@ -1,4 +1,4 @@
-#include <main.h>
+#include <stdio.h>
 
 /**
  * main - prints all arguments it receives each in a new line
@@ -6,7 +6,7 @@
  * @argv: argiment vector
  * Return: 0 if success
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	for (int k = 0; k < argc; k++)
 	{
