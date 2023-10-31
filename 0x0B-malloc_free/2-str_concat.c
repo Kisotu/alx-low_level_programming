@@ -46,7 +46,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		comb_str[j] = s1[j];
 	}
-	for (k = 0; k < s2_length; k++)
+	for (k = 0; k < s2_length; j++, k++)
 	{
 		comb_str[j] = s2[k];
 	}
