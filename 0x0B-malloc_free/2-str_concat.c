@@ -15,14 +15,18 @@ char *str_concat(char *s1, char *s2)
 
 	s1_length = s2_length = 0;
 	if (s1 != NULL)
+	{
 		j = 0;
 		while (s1[j++] != '\0')
 			s1_length++;
+	}
 
 	if (s2 != NULL)
+	{
 		j = 0;
 		while (s2[j++] != '\0')
 			s2_length++;
+	}
 
 	length = s1_length + s2_length;
 	comb_str = (char *)malloc(sizeof(char) * (length + 1));
