@@ -6,6 +6,7 @@
  * @size: size of arrayin bytes
  * Return: pointer to allocated memory
  */
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *k;
 	unsigned int n;
