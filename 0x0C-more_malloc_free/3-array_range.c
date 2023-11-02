@@ -14,7 +14,7 @@ int *array_range(int min, int max)
 	if (min  > max)
 		return (NULL);
 
-	size_arr = max -min + 1;
+	size_arr = max - min + 1;
 
 	pnter = malloc(sizeof(int) * size_arr);
 
