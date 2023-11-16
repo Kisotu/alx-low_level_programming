@@ -10,7 +10,7 @@
  */
 struct Node
 {
-	unsigned long int length;
+	unsigned int length;
 	char *str;
 	struct Node *next;
 };

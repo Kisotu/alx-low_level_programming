@@ -7,7 +7,6 @@
  * print_list - A function that prints all elems of a list
  * @h: name of the linked list
  * Return: no of nodes
- *
  */
 size_t print_list(const list_t *h)
 {
