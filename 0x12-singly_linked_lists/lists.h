@@ -2,17 +2,18 @@
 #define LINKED_LIST_HEADER
 
 /**
- * struct Node - A singly linked list
- * @str: string that has been allocated mem space
+ * struct list_s - singly linked list
+ * @str: string - (malloc'ed string)
+ * @len: length of the string
  * @next: points to the next node
- * @length: The length of the string
- * Description: Template for our linked list
+ *
+ * Description: singly linked list node structure
  */
-typedef struct Node
+typedef struct list_s
 {
-	unsigned int length;
-	char *str;
-	struct Node *next;
+    char *str;
+    unsigned int len;
+    struct list_s *next;
 } list_t;
 
 size_t print_list(const list_t *h);
