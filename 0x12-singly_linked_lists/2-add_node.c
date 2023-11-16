@@ -9,7 +9,6 @@
  * @str: the string to store in the list.
  * Return: address of the list head
  */
-
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *data_new;
