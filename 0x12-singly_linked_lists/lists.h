@@ -2,7 +2,7 @@
 #define LINKED_LIST_HEADER
 
 /**
- * struct list_s - A singly linked list
+ * struct Node - A singly linked list
  * @str: string that has been allocated mem space
  * @next: points to the next node
  * @length: The length of the string
