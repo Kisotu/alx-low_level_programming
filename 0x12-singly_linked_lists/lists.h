@@ -13,7 +13,7 @@ typedef struct Node
 	unsigned int length;
 	char *str;
 	struct Node *next;
-}list_t;
+} list_t;
 
 size_t print_list(const list_t *h);
 size_t list_len(const list_t *h);
