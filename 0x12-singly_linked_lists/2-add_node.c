@@ -1,4 +1,8 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
 #include "lists.h"
+
 /**
  * add_node - function that adds new node at the front of list_t
  * @head: first element
