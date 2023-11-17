@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * before_printf - 
- *
+ * before_main - function that prints to stdout before main
+ * Return: void
  */
 void __attribute__ ((constructor)) before_main(void)
 {
