@@ -3,7 +3,7 @@
 /**
  * add_nodeint_end - a fxn that adds node to end of list
  * @head: pointer to first node
- * @n: int elem to add 
+ * @n: int elem to add
  * Return: address of new elem
  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
