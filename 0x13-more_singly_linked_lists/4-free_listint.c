@@ -5,7 +5,7 @@
  * @head: pointer to head
  * Return: void
  */
-void free_listint(listit_t *head)
+void free_listint(listint_t *head)
 {
 	listint_t *node;
 
