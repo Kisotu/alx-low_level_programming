@@ -15,7 +15,7 @@ void file_check(int f_from, int f_to, char *argv[])
 		dprintf(STDERR_FILENO, "Error: can't read from file%s\n", argv[1]);
 		exit(98);
 	}
-	if (d_to == -1)
+	if (f_to == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: can't write to %s", argv[2]);
 		exit(98);
@@ -55,7 +55,7 @@ int main(int argc, char *argv[])
 		wrt = write(copy_to, buffer, rd);
 		if (wrt == -1)
 		{
-			file_check(0, -1, argv)
+			file_check(0, -1, argv);
 		}
 	}
 	error_close = close(copy_from);
