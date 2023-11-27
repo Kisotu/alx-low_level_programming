@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * append_to_file -  A fxn that appends text at end of file
+ * append_text_to_file -  A fxn that appends text at end of file
  * @filename: pointer to file
  * @text_content: string to append to file end
  * Return: 1 if success, -1 otherwise
  */
-int append_to_file(const char *filename, char *text_content)
+int append_text_to_file(const char *filename, char *text_content)
 {
 	int opn, wrt, length;
 
