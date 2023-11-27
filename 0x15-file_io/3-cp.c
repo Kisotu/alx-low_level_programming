@@ -54,9 +54,7 @@ int main(int argc, char *argv[])
 		}
 		wrt = write(copy_to, buffer, rd);
 		if (wrt == -1)
-		{
 			file_check(0, -1, argv);
-		}
 	}
 	error_close = close(copy_from);
 	if (error_close == -1)
