@@ -18,7 +18,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (bufer == NULL)
 		return (0);
 
-	opn = open(filename, O-RDONLY);
+	opn = open(filename, O_RDONLY);
 	rd = read(o, bufer, letters);
 	wrt = write(STDOUT_FILENO, bufer, rd);
 
@@ -27,7 +27,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		free(bufer);
 		return (0);
 	}
-	free (bufer);
+	free(bufer);
 	close(opn);
 
 	return (wrt);
