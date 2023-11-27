@@ -12,12 +12,12 @@ void file_check(int f_from, int f_to, char *argv[])
 {
 	if (f_from == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: can't read from file%s\n", argv[1]);
+		dprintf(STDERR_FILENO, "Error: Can't read from file%s\n", argv[1]);
 		exit(98);
 	}
 	if (f_to == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: can't write to %s", argv[2]);
+		dprintf(STDERR_FILENO, "Error: Can't write to %s", argv[2]);
 		exit(98);
 	}
 }
@@ -61,7 +61,7 @@ int main(int argc, char *argv[])
 	error_close = close(copy_from);
 	if (error_close == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: can't close fd%d\n", copy_from);
+		dprintf(STDERR_FILENO, "Error: Can't close fd%d\n", copy_from);
 		exit(100);
 	}
 	error_close = close(copy_to);
