@@ -59,13 +59,13 @@ int main(int argc, char *argv[])
 	error_close = close(copy_from);
 	if (error_close == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd%d\n", copy_from);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", copy_from);
 		exit(100);
 	}
 	error_close = close(copy_to);
 	if (error_close == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd%d\n", copy_from);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", copy_from);
 		exit(100);
 	}
 	return (0);
