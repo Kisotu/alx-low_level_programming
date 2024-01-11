@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * sum_dlistint - func that sums data of dlistint_t 
+ * sum_dlistint - func that sums data of dlistint_t
  * @head: pointer to head of list
  * Return: sum of all data
  */
